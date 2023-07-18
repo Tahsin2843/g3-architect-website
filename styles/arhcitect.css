@@ -6,7 +6,7 @@
 /* header styles */
 
  header{
-  background: rgba(243, 134, 10, 0.1);
+  background: rgba(248, 172, 87, 0.827);
   padding: 50px 240px;
  }
 nav{
@@ -43,4 +43,25 @@ nav li{
 .btnPrimary{
   color: white;
   background-color: orange;
+  padding: 20px 25px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.banner img{
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+/* responsive media queries */
+@media screen and (max-width: 576px) {
+  header{
+    padding: 20px;
+  }
+  nav {
+    flex-direction:column;
+  }
 }
